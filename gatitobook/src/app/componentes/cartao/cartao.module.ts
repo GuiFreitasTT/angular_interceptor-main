@@ -8,6 +8,9 @@ import { CartaoComponent } from './cartao.component';
   declarations: [CartaoComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports : [
+    CartaoComponent
+  ],
 })
 export class CartaoModule { }
